@@ -37,7 +37,6 @@ def main():
         player_name = valids.nameval()
 
         print("\nNow... Tell me about yourself.")
-        sleep(1)
         player = classes.player_class_menu(player_name)
 
         sleep(1)

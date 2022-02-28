@@ -50,9 +50,6 @@ def combat(player):
     print(f"You encounter an {enemy.name}!") if enemy.name[0] in 'aeiou' else print(f"You encounter a {enemy.name}!\n")
 
     sleep(1)
-
-    if combat_menu(player,enemy) == "run":
-        return
     
     #Ranged advantage attack
     if player.ranged and not enemy.ranged:
@@ -112,5 +109,5 @@ def combat_menu(player, enemy):
             else:
                 input("Press enter to continue...\n")
                 return "run"
-        else:
+        elif choice == "attack":
             break
