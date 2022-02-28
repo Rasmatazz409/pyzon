@@ -6,13 +6,21 @@ random.seed()
 
 #Room Descriptions
 rooms = [
-    "an immense, dark, damp cave barren of noise except the occasional drip of condensation.",
-    "a dimly lit stone hallway, lit by a lone torch hanging on the wall.",
-    "a musty, vast library lined with row upon row of ancient scrolls and books.",
-    "a deep dungeon lined on both sides with empty cells.",
-    "an abandoned barracks strewn with broken armor, weapons, and the splatter of blood.",
-    "a central courtyard surrounded by tall, impassible stone walls and a circular garden at its center.",
-    "a throne room, now littered with destroyed furniture, torn tapestries, and glass from the broken windows."
+    "an immense, dark, damp cave barren of noise except the occasional drip of condensation.  The smell of mildew and the sea permeate the environment and glints of light reflect off of the slick walls, casting dancing visuals around you.",
+    "a dimly lit stone hallway, lit by a lone torch hanging on the wall.  The hallway extends far beyond the vision provided by the sole light source.  Distant echoes can be heard but are faint enough to be indistinguishable or recognizeable.",
+    "a musty, vast library lined with row upon row of bookcases.  Stairs lead to an additional floor above that lines the walls, leaving the center open to views of the lower floor.  Lanterns are scattered around the room, giving the environment a gloomy but well-lit atmosphere.",
+    "a chamber that is clearly a prison. Small barred cells line the walls, leaving a 15-foot-wide pathway for a guard to walk. Channels run down either side of the path next to the cages, probably to allow the prisoners' waste to flow through the grates on the other side of the room. The cells appear empty but your vantage point doesn't allow you to see the full extent of them all.",
+    "a room littered with remnants of broken tables, chairs, and what appears to be the remains of broken armor and weapons.  Blood is splattered in all directions and stains the walls, floor, and ceiling as if an immense struggle took place here.",
+    "a central courtyard surrounded by tall, impassible stone walls and a circular garden at its center.  The garden is occupied by numerous plants of unknown origin and a singular, towering tree that twists and stretches above you.",
+    "and see that a dozen statues stand or kneel in this room, and each one lacking a head and standing in a posture of action or defense. All are garbed for battle. It's difficult to tell for sure without their heads, but two appear to be dwarves, one might be an elf, six appear human, and the rest look like they might be orcs.",
+    "the room. A stone throne stands on a foot-high circular dais in the center of this cold chamber. The throne and dais bear the simple adornments of patterns of crossed lines -- a pattern also employed around each door to the room.",
+    "a small room lined with benchlike seats on all the walls. The seats all have holes in their top, like a privy. Facing stones on the front of the benches prevent you from seeing how deep the holes go. It looks like a communal bathroom.",
+    "and the sound of rushing water fills your ears.  Along the walls, channels of flowing water can be seen running towards the wall you entered from.  On the opposite end, gargoyles with gaping maws can be seen hanging from the walls, water pouring from their mouths into the channels.",
+    "a small, round room.  The focal point of the room appears to be the unnaturally tall ceiling, featuring supports and windows usually seen on the outside of castles.  It appears to be a tower of some sort but with no way to ascend.",
+    "a square room filled with crates, barrels, and chests.  They are laid out in an organized manner, hinting that this may be some form of storage room.  However, further inspection reveals them all to be empty or contain useless junk.",
+    "a room with a door on the opposite wall and windows lining the adjacent walls.  The door opposite of you has been hastily boarded up and barricaded with whatever furniture could be found.  Signs of wear and damage can be seen around the edges of the door on the wall and the door itself.",
+    "what appears to be a catacomb or tomb.  Slots in the walls are occupied by coffins and skeletons, brittle with signs of decay.  Skulls and bones that have unfortunately lost their bodily counterparts can be seen littered around the floor.",
+    "and see rows of tables covered in utensils, bowls, mugs, and scraps of rotten food.  This appears to be what remains of a mess hall.  The remnants of legends and tales of glory can be felt in the memories lingering in the air."
 ]
 roomnum = len(rooms)
 
