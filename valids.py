@@ -113,9 +113,9 @@ def yes_no():
 
 def player_choice():
     choices = ["status","attack","run"]
-    choice = input("Please enter your command > ").lower()
     while True:
-        if not choice or choice not in choices:
+        choice = input("Please enter your command > ").lower()
+        if choice not in choices:
             print("Please enter a valid command.")
             continue
         elif choice in choices:
