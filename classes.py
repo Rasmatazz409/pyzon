@@ -89,7 +89,11 @@ Player is Ranged: {pclass.ranged}
 #List of enemies
 enemies = [
     "goblin",
-    "troll"
+    "troll",
+    "slime",
+    "archer_goblin",
+    "hobgoblin",
+    "mimic"
 ]
 
 #Enemy Classes
@@ -103,6 +107,34 @@ class goblin:
 class troll:
     def __init__(self):
         self.name = "troll"
+        self.attack = 3
+        self.health = 6
+        self.ranged = False
+
+class slime:
+    def __init__(self):
+        self.name = "slime"
+        self.attack = 1
+        self.health = 1
+        self.ranged = False
+
+class archer_goblin:
+    def __init__(self):
+        self.name = "archer goblin"
+        self.attack = 1
+        self.health = 2
+        self.ranged = True
+
+class hobgoblin:
+    def __init__(self):
+        self.name = "hobgoblin"
         self.attack = 2
-        self.health = 5
+        self.health = 4
+        self.ranged = False
+
+class mimic:
+    def __init__(self):
+        self.name = "mimic"
+        self.attack = 1
+        self.health = 6
         self.ranged = False

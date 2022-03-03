@@ -20,7 +20,7 @@ import valids, classes, pyfiglet, menu, roomgen, config, random
 from time import sleep
 
 ##### VARIABLE SETUPS #####
-rooms_max = 5 + (3 * config.game_diff)
+rooms_max = 8 + (4 * config.game_diff)
 
 
 ##### GAME LOGO ######
