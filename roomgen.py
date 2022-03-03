@@ -1,5 +1,5 @@
 #GENERATES ROOMS AND MANAGES COMBAT FOR PLAYER PROGRESSION
-import random, valids, classes
+import random, valids, classes, config
 from time import sleep
 #Initialize the random module - uses current system time as a seed
 random.seed()
@@ -26,7 +26,7 @@ roomnum = len(rooms)
 
 ########Room Variables###########
 #Chance an enemy will spawn out of 10 (10 meaning an enemy will ALWAYS spawn, 0 meaning they will NEVER spawn)
-enemy_chance = 4
+enemy_chance = 5 + (config.game_diff * 2)
 chanceint = 10 - enemy_chance
 
 ######### Main Generation Function #########
